@@ -61,4 +61,5 @@ let clearCartBtn = document.getElementById("clear-cart");
 clearCartBtn.addEventListener("click", () => {
   cart_list.innerHTML = "";
   subtotalElement.innerHTML = "";
+  subTotal = 0;
 });
